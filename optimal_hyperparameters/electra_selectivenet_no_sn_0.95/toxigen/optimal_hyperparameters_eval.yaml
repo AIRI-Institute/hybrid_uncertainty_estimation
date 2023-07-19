@@ -1,0 +1,15 @@
+epoch: 12.0
+eval_accuracy: 0.8170212765957446
+eval_loss: 1.8377281427383423
+eval_runtime: 2.1806
+eval_samples_per_second: 431.065
+eval_steps_per_second: 6.879
+lamb: 0.002
+lamb_intra: 0.002
+learning_rate: 3.0e-05
+lm: 10
+margin: 5.0
+num_train_epochs: 12
+objective: 0.8566964285714286
+per_device_train_batch_size: 4
+weight_decay: 0

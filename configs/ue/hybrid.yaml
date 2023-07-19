@@ -1,0 +1,31 @@
+ue_type: 'hybrid'
+dropout_subs: ''
+dropout_type: ''
+use_cache: True
+eval_passes: False
+calibrate: False
+use_spectralnorm: False
+use_selective: False
+lamb: 0.01
+margin: 0.05
+lamb_intra: 0.01
+reg_type: 'reg-curr'
+aleatoric: 'sr'
+epistemic_key: 'ddu_scores'
+val_path: '../workdir/run_tasks_for_model_series/electra_raw_sn' 
+epistemic:
+    ue_type: 'ddu'
+v1:
+    t_min_min: 0.0
+    t_min_max: 0.2
+    t_max_min: 0.8
+    t_max_max: 1.0
+    alpha_min: 0.0
+    alpha_max: 1.0
+v2: 
+    t_min_min: -1.0
+    t_min_max: 3.0
+    t_max_min: -1.0
+    t_max_max: 3.0
+    alpha_min: 0.0
+    alpha_max: 1.0
